@@ -1,0 +1,291 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+li{list-style-type:none;}
+a{text-decoration: none;}
+::scrollbar {
+  width:5px;
+  height:5px;
+}
+
+/* Track */
+::scrollbar-track {
+  background:#3f4b5d;
+}
+
+/* Handle */
+::scrollbar-thumb {
+  border-radius: 10px;
+  background:#76879e;
+}
+::scrollbar-thumb:window-inactive {
+  background: #333d4b;
+}
+.right{float:right;}
+.left{float:left;}
+.indexContainer .w1200 {
+  width: 1200px;
+  margin: 0 auto;
+}
+.indexContainer .headerCenter {
+  font-size: 30px;
+  height: 87px;
+  text-align: center;
+  color: #333;
+  line-height: 112px;
+  font-weight: normal;
+}
+.indexUser {
+  background: #fff;
+  height: 70px;
+  overflow: hidden;
+}
+.indexUser .indexLogo {
+  float: left;
+  width: 165px;
+  padding-top: 18px;
+}
+.indexUser .indexLogo img {
+  width: 165px;
+  height: 31px;
+}
+.indexNav li {
+  float: left;
+}
+.indexNav li a {
+  line-height: 67px;
+  border-bottom: 3px solid #fff;
+  display: inline-block;
+  padding: 0 30px;
+  color: #333;
+  font-size: 16px;
+  position: relative;
+}
+.indexNav li a:before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  margin-left: -2px;
+  border-bottom: 3px dashed;
+  border-bottom: 3px solid \9;
+  border-right: 3px solid transparent;
+  border-left: 3px solid transparent;
+  color: #259ee3;
+  display: none;
+}
+.indexNav li:hover a {
+  color: #259ee3;
+  border-bottom: 3px solid #259ee3;
+}
+.indexNav li:hover a:before {
+  display: inline-block;
+}
+.indexLogin {
+  line-height: 70px;
+  color: #828181;
+  margin-left: 65px;
+}
+.indexLogin a {
+  font-size: 14px;
+  color: #828181;
+  margin-left: 10px;
+}
+.indexLogin a:first-child {
+  margin-right: 10px;
+  margin-left: 0;
+}
+.indexLogin .icon-username:before {
+  margin-right: 8px;
+}
+.indexBanner {
+  height: 600px;
+  background: #121f3d;
+}
+.indexSuperiority {
+  background: #f7fbfe;
+  height: 600px;
+}
+.indexSuperiority .indexItemBd {
+  position: relative;
+  margin: 67px auto 0 auto;
+  width: 456px;
+  height: 370px;
+  background: #fff;
+}
+.indexSuperiority .indexSuperiorityItem {
+  width: 400px;
+  position: absolute;
+}
+.indexSuperiority .indexSuperiorityItem h3 {
+  font-size: 20px;
+  color: #333;
+}
+.indexSuperiority .indexSuperiorityItem p {
+  font-size: 12px;
+  color: #666;
+  margin-top: 5px;
+  line-height:17px;
+}
+.indexSuperiority .indexSuperiorityItem1 {
+  width: 288px;
+  text-align: center;
+  left: 50%;
+  margin-left: -144px;
+  top: -60px;
+}
+.indexSuperiority .indexSuperiorityItem2 {
+  left: 430px;
+  top: 38px;
+}
+.indexSuperiority .indexSuperiorityItem3 {
+  top: 170px;
+  left: 460px;
+}
+.indexSuperiority .indexSuperiorityItem4 {
+  left: 430px;
+  top: 300px;
+}
+.indexSuperiority .indexSuperiorityItem5 {
+  width: 288px;
+  bottom: -60px;
+  left: 50%;
+  margin-left: -144px;
+  text-align: center;
+}
+.indexSuperiority .indexSuperiorityItem6 {
+  right: 450px;
+  top: 290px;
+  text-align: right;
+}
+.indexSuperiority .indexSuperiorityItem7 {
+  top: 160px;
+  right: 480px;
+  text-align: right;
+}
+.indexSuperiority .indexSuperiorityItem8 {
+  right: 453px;
+  top: 20px;
+  text-align: right;
+}
+.indexService {
+  height: 600px;
+  background: #fff;
+}
+.indexService .isItem {
+  height: 198px;
+  padding-left: 218px;
+  position: relative;
+}
+.indexService .isItem h2 {
+  font-size: 22px;
+  color: #333;
+  padding-left: 20px;
+  margin: 25px 0 20px;
+}
+.indexService .isItem p {
+  font-size: 14px;
+  color: #333;
+  line-height: 30px;
+}
+.indexService .isItem:last-child {
+  padding-left: 0;
+  padding-right: 218px;
+}
+.indexService .isItem:last-child h2 {
+  text-align: right;
+  padding-right: 20px;
+}
+.indexCase {
+  background: #259ee3;
+  height: 600px;
+  overflow: hidden;
+}
+.indexCase .headerCenter {
+  color: #fff;
+}
+.indexCase .hd h3 {
+  font-size: 22px;
+  color: #fff;
+  margin: 36px 0 26px;
+}
+.indexCase .hd p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+}
+.indexCase .bd {
+  margin-top: 22px;
+  text-align: center;
+}
+.indexCase .IndexCaseItem {
+  padding: 156px 20px 0 20px;
+  position: relative;
+  display: inline-block;
+  width: 350px;
+  height: 360px;
+  border-radius: 3px;
+  background: #f4fafe;
+  color: #999;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: left;
+  top: 50px;
+}
+.indexCase .IndexCaseItem.active {
+  top: 0;
+  padding-top: 190px;
+  background: #dff1fb;
+  color: #333;
+}
+.indexCase .IndexCaseItem:nth-child(2) {
+  margin: 0 70px;
+}
+.indexAbout {
+  height: 470px;
+  background: #fff;
+}
+.indexAbout .indexAboutItem {
+  margin-top: 35px;
+}
+.indexAbout .indexAboutItem p {
+  color: #333;
+  line-height: 24px;
+  font-size: 14px;
+}
+.indexAbout .indexAboutItem .btnBox {
+  text-align: center;
+  margin-top: 85px;
+}
+.indexAbout .indexAboutItem a.btn {
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  font-size: 14px;
+  border: 1px solid #259ee3;
+  border-radius: 3px;
+  color: #fff;
+  background: #259ee3;
+  outline: none;
+  transition: all ease .3s;
+  padding: 0;
+  line-height: 38px;
+}
+.indexAbout .indexAboutItem a.btn:last-child {
+  background: transparent;
+  color: #259ee3;
+  margin-left: 90px;
+}
+.indexAbout .indexAboutItem a.btn:hover {
+  opacity: .8;
+}
+.indexFooter {
+  height: 150px;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  background: rgba(75, 81, 96, 0.9);
+  overflow: hidden;
+}
+.indexFooter p:first-child {
+  margin: 60px 0 20px;
+}
