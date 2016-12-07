@@ -5,12 +5,10 @@ a{text-decoration: none;}
   width:5px;
   height:5px;
 }
-
 /* Track */
 ::scrollbar-track {
   background:#3f4b5d;
 }
-
 /* Handle */
 ::scrollbar-thumb {
   border-radius: 10px;
